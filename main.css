@@ -1,0 +1,200 @@
+.main__container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.announcements {
+  background-color: #d8e8e3;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.announcements span {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  max-width: 60%;
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.left_right_section {
+  display: flex;
+  margin-bottom: 32px;
+  /* display: flex; */
+}
+.text {
+  width: 50%;
+}
+.image {
+  width: 50%;
+  height: 420px;
+}
+
+/* jo image classs ke ander wala image ko 100% hi rakh .... 
+class ko to 50% hi rakh na hai because we want that to be 50 50 %
+ */
+
+.image > img {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f1f8f6;
+}
+
+.text > h1,
+.text > h3 {
+  margin: 0;
+  font-weight: 500;
+  color: #1e3932;
+}
+
+.text > h1 {
+  margin-bottom: 24px;
+}
+
+.text > h3 {
+  margin-bottom: 32px;
+}
+
+.text .cta {
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  color: #1e3932;
+  font-weight: 600;
+  cursor: pointer;
+}
+.text .cta:hover {
+  background-color: rgba(30, 57, 50, 0.1);
+  transition: all 0.2s ease;
+}
+
+.chill .text {
+  background-color: #f2f0eb;
+}
+
+.chill .text > h1 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.chill .text > h3 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+section {
+  display: flex;
+}
+
+.top__bottom__section {
+  width: 50%;
+  display: flex;
+  margin-bottom: 35px;
+}
+.section__container {
+  display: flex;
+  flex-direction: column;
+}
+.top__bottom__section .image {
+  width: 100%;
+}
+.top__bottom__section .text {
+  width: 100%;
+}
+
+.section__container .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.top__bottom__section .text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.top__bottom__section:first-child .section__container {
+  margin-right: 16px;
+}
+
+.top__bottom__section:last-child .section__container {
+  margin-left: 16px;
+}
+
+.top__bottom__section .text {
+  background-color: #d4e9e2;
+}
+.top__bottom__section .text h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.top__bottom__section .text h1 {
+  background-color: #d4e9e2;
+  padding-left: 24px;
+  padding-right: 2px;
+  padding-bottom: 15px;
+  padding-top: 12px;
+}
+
+.top__bottom__section .text h3 {
+  font-size: 19px;
+  line-height: 1.5;
+}
+.reviews {
+  background-color: #d4e9e2;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.reviews__container {
+  display: flex;
+}
+
+.reviews__container__inside {
+  display: flex;
+}
+
+.reviews__container__inside .reviews__text {
+  width: 50%;
+}
+
+.reviews__container__inside .reviews__image {
+  width: 50%;
+  height: 420px;
+}
+
+.reviews__container__inside .reviews__image img {
+  height: 100%;
+  width: 100%;
+}
+
+.reviews__text {
+  margin-top: 8rem;
+  align-items: center;
+  text-align: center;
+
+}
+.reviews__text h1 {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.reviews__text h3{
+
+  font-weight: 400;
+  line-height: 1.5;
+  
+}
